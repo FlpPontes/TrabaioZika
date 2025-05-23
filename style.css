@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+}.logo img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2525;
+    padding: 15px ;
+    margin: 0;
+    position: sticky;
+    z-index: 4;
+    top: 0;
+}
+
+.nav-t{
+    width: 15%;
+    margin: 0;
+}.nav-t a{
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-a{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0;
+    justify-content: right;
+    align-items: center;
+}.nav-a a{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-decoration: none;
+    margin: 0 15px 0;
+    color: #f0f0f0;
+    transition: text-decoration 0.5s ease, color 0.4s ease;
+}.nav-a a:hover{
+    color: rgb(213, 216, 35);
+    text-decoration: underline;
+}
+
+
+
+
+
