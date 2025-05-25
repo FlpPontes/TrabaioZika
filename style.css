@@ -21,7 +21,6 @@ body {
 }
 
 
-
 /*---- Navbar ----*/
 .navbar {
     display: flex;
@@ -39,24 +38,18 @@ body {
 .nav-t {
     width: 20%;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.nav-t a {
-    font-family: "Brush Script MT", "Brush Script Std", cursive;
-    font-weight: 500;
-    letter-spacing: 2px;
-    font-size: 220%;
-    color: #f0f0f0;
-    margin: 0 0 0 4%;
-    padding: 0;
-    border-radius: 5px;
-
+.nav-t a img{
+    height: 50px;
+    margin: 0 0 0 5%;
 }
 
 .nav-t a:hover {
-    color: rgba(213, 216, 35, 0.726);
-    transform: scale(1.05);
-    text-shadow: 0 1px 50px rgba(213, 216, 35, 0.726);
+    scale: 1.05;
 }
 
 .nav-a {
