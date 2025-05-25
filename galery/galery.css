@@ -31,7 +31,7 @@
     bottom: 0;
     top: 0;
     width: 100%;
-    background: rgb(213, 216, 35);
+    background: rgba(213, 216, 35, 0.726);
     text-align: center;
     opacity: 0;
     font-size: 20px;
