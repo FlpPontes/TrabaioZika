@@ -98,7 +98,7 @@ body {
 
 /* Formulario da Página Contato*/
 
-.contato-container {
+.contato-container, .quem-somos-container {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.35);
     border-radius: 10px;
@@ -160,3 +160,18 @@ body {
     color: rgba(213, 216, 35, 0.726);
     text-shadow: 0 1px 50px rgba(213, 216, 35, 0.726);
 }
+
+
+/* Seções específicas */
+
+
+.missao,
+.visao,
+.valores {
+    background-color: #fff7f257;
+    padding: 15px;
+    border-left: 5px solid rgba(213, 216, 35, 0.726);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: #f0f0f0;
+}3
